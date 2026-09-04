@@ -1,0 +1,255 @@
+{
+  "accuracy": 0.8,
+  "precision": 1.0,
+  "recall": 0.6667,
+  "f1_score": 0.8,
+  "confusion_matrix": {
+    "true_negatives": 12,
+    "false_positives": 0,
+    "false_negatives": 6,
+    "true_positives": 12
+  },
+  "total_test_entities": 30,
+  "test_details": [
+    {
+      "entity_input": "Kredit Bee",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": false,
+      "score": 63.1578947368421,
+      "matched_entity": null,
+      "correct": false
+    },
+    {
+      "entity_input": "kreditbee online",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": false,
+      "score": 56.00000000000001,
+      "matched_entity": null,
+      "correct": false
+    },
+    {
+      "entity_input": "Bajaj Finserv",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 100.0,
+      "matched_entity": "Bajaj Finance Limited",
+      "correct": true
+    },
+    {
+      "entity_input": "bajaj finance ltd",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": false,
+      "score": 73.6842105263158,
+      "matched_entity": null,
+      "correct": false
+    },
+    {
+      "entity_input": "Navi",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 100.0,
+      "matched_entity": "Navi Finserv Limited",
+      "correct": true
+    },
+    {
+      "entity_input": "Navi Loans App",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 83.33333333333334,
+      "matched_entity": "Navi Finserv Limited",
+      "correct": true
+    },
+    {
+      "entity_input": "Tata Capital",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 100.0,
+      "matched_entity": "Tata Capital Financial Services Ltd",
+      "correct": true
+    },
+    {
+      "entity_input": "Tata Neu Financial",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": false,
+      "score": 64.51612903225806,
+      "matched_entity": null,
+      "correct": false
+    },
+    {
+      "entity_input": "State Bank of India",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 100.0,
+      "matched_entity": "State Bank of India",
+      "correct": true
+    },
+    {
+      "entity_input": "SBI YONO",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 100.0,
+      "matched_entity": "State Bank of India",
+      "correct": true
+    },
+    {
+      "entity_input": "HDFC PayZapp",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": false,
+      "score": 73.6842105263158,
+      "matched_entity": null,
+      "correct": false
+    },
+    {
+      "entity_input": "DMI Finance",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 100.0,
+      "matched_entity": "DMI Finance Pvt Ltd",
+      "correct": true
+    },
+    {
+      "entity_input": "Muthoot Gold Loan",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 100.0,
+      "matched_entity": "Muthoot Finance Ltd",
+      "correct": true
+    },
+    {
+      "entity_input": "Poonawalla Fincorp",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 90.0,
+      "matched_entity": "Poonawalla Fincorp Ltd",
+      "correct": true
+    },
+    {
+      "entity_input": "Credit Saison",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 100.0,
+      "matched_entity": "Credit Saison India (Kisetsu Saison)",
+      "correct": true
+    },
+    {
+      "entity_input": "LazyPay",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 100.0,
+      "matched_entity": "PayU Finance India Pvt Ltd",
+      "correct": true
+    },
+    {
+      "entity_input": "InCred Finance",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": true,
+      "score": 100.0,
+      "matched_entity": "InCred Financial Services Ltd",
+      "correct": true
+    },
+    {
+      "entity_input": "Fibe Loans",
+      "expected_whitelisted": true,
+      "predicted_whitelisted": false,
+      "score": 57.14285714285714,
+      "matched_entity": null,
+      "correct": false
+    },
+    {
+      "entity_input": "QuickCash Chinese Paisa App 2026",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 34.78260869565217,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "Instant Dhan 5-Minute Loan",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 44.44444444444444,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "FastRupee Cash Wallet",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 39.28571428571429,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "Lucky Rupee Instant Credit",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 46.15384615384615,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "EasyLoan Quick Disbursal APK",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 40.625,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "Flash Money Express",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 43.75,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "Speedy Paisa Harvester",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 40.0,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "Pocket Cash 24x7 Unregulated",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 38.095238095238095,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "Super Dhan Loan Hub",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 38.888888888888886,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "Ultra Fast Cash Direct",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 47.05882352941176,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "Seven Days Instant Credit APK",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 49.23076923076923,
+      "matched_entity": null,
+      "correct": true
+    },
+    {
+      "entity_input": "Gold Coin Fast Rupee",
+      "expected_whitelisted": false,
+      "predicted_whitelisted": false,
+      "score": 36.36363636363637,
+      "matched_entity": null,
+      "correct": true
+    }
+  ]
+}

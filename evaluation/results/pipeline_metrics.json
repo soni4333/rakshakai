@@ -1,0 +1,186 @@
+{
+  "total_eval_samples": 49,
+  "overall_metrics": {
+    "accuracy": 0.4898,
+    "precision": 0.4898,
+    "recall": 1.0,
+    "f1_score": 0.6575,
+    "confusion_matrix": {
+      "true_negatives": 0,
+      "false_positives": 25,
+      "false_negatives": 0,
+      "true_positives": 24
+    }
+  },
+  "per_layer_metrics": {
+    "layer_1": {
+      "layer_name": "Layer 1",
+      "num_samples": 15,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "confusion_matrix": {
+        "true_negatives": 0,
+        "false_positives": 15,
+        "false_negatives": 0,
+        "true_positives": 0
+      }
+    },
+    "layer_2": {
+      "layer_name": "Layer 2",
+      "num_samples": 11,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion_matrix": {
+        "true_negatives": 11,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "true_positives": 11
+      }
+    },
+    "layer_3": {
+      "layer_name": "Layer 3",
+      "num_samples": 15,
+      "precision": 0.5333,
+      "recall": 1.0,
+      "f1_score": 0.6957,
+      "confusion_matrix": {
+        "true_negatives": 0,
+        "false_positives": 7,
+        "false_negatives": 0,
+        "true_positives": 8
+      }
+    },
+    "layer_4": {
+      "layer_name": "Layer 4",
+      "num_samples": 8,
+      "precision": 0.625,
+      "recall": 1.0,
+      "f1_score": 0.7692,
+      "confusion_matrix": {
+        "true_negatives": 0,
+        "false_positives": 3,
+        "false_negatives": 0,
+        "true_positives": 5
+      }
+    }
+  },
+  "hallucination_guard": {
+    "total_triggers": 2,
+    "trigger_rate": 0.0408,
+    "trigger_rate_percentage": "4.08%"
+  },
+  "sample_eval_details": [
+    {
+      "id": "L1_2018",
+      "layer": 1,
+      "text": "\u2022 infringe any intellectual property rights that belong to third parties affecte...",
+      "true_label": "Low-risk",
+      "pipeline_verdict": "FLAGGED_FOR_HUMAN_REVIEW",
+      "pipeline_citation": "N/A - Safety Guard Triggered",
+      "pipeline_early_exit": false,
+      "baseline_verdict": "GREEN",
+      "baseline_citation": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021"
+    },
+    {
+      "id": "L1_450",
+      "layer": 1,
+      "text": "as between you and vimeo , you own all non-video content that you submit to the ...",
+      "true_label": "Low-risk",
+      "pipeline_verdict": "RED",
+      "pipeline_citation": "DPDP Act 2023 \u00a79",
+      "pipeline_early_exit": false,
+      "baseline_verdict": "GREEN",
+      "baseline_citation": "Indian Copyright Act, 1957"
+    },
+    {
+      "id": "L1_189",
+      "layer": 1,
+      "text": "any request for payment of fees by ebay should be submitted by mail to the aaa a...",
+      "true_label": "Low-risk",
+      "pipeline_verdict": "FLAGGED_FOR_HUMAN_REVIEW",
+      "pipeline_citation": "N/A - Safety Guard Triggered",
+      "pipeline_early_exit": false,
+      "baseline_verdict": "GREEN",
+      "baseline_citation": "Arbitration and Conciliation Act, 1996"
+    },
+    {
+      "id": "L1_907",
+      "layer": 1,
+      "text": "you further hereby grant to supercell the unconditional , irrevocable right to u...",
+      "true_label": "Low-risk",
+      "pipeline_verdict": "RED",
+      "pipeline_citation": "DPDP Act 2023 Section 6",
+      "pipeline_early_exit": false,
+      "baseline_verdict": "RED",
+      "baseline_citation": "Indian Contract Act, 1872 (Section 23) & Consumer Protection Act, 2019 (Section 2(46))"
+    },
+    {
+      "id": "L1_524",
+      "layer": 1,
+      "text": "by using the services , you agree to such automatic updating . ",
+      "true_label": "Low-risk",
+      "pipeline_verdict": "RED",
+      "pipeline_citation": "DPDP Act 2023, Section 5",
+      "pipeline_early_exit": false,
+      "baseline_verdict": "RED",
+      "baseline_citation": "Error"
+    },
+    {
+      "id": "L1_2046",
+      "layer": 1,
+      "text": "please note that these terms and conditions contain a mandatory arbitration of d...",
+      "true_label": "Low-risk",
+      "pipeline_verdict": "RED",
+      "pipeline_citation": "Indian Contract Act 1872 (Section 23 - Unconscionable Terms & Public Policy)",
+      "pipeline_early_exit": false,
+      "baseline_verdict": "RED",
+      "baseline_citation": "Error"
+    },
+    {
+      "id": "L1_1053",
+      "layer": 1,
+      "text": "you may not use the services in a way that is detrimental to the operation of th...",
+      "true_label": "Low-risk",
+      "pipeline_verdict": "RED",
+      "pipeline_citation": "RBI Digital Lending Guidelines 2022 (Clause 5 - Prohibition of Contact List and Gallery Access)",
+      "pipeline_early_exit": false,
+      "baseline_verdict": "RED",
+      "baseline_citation": "Error"
+    },
+    {
+      "id": "L1_1555",
+      "layer": 1,
+      "text": "what is the evernote service ? ",
+      "true_label": "Low-risk",
+      "pipeline_verdict": "RED",
+      "pipeline_citation": "RBI Digital Lending Guidelines 2022 (Clause 7 - Nodal Grievance Redressal Officer)",
+      "pipeline_early_exit": false,
+      "baseline_verdict": "RED",
+      "baseline_citation": "Error"
+    },
+    {
+      "id": "L1_613",
+      "layer": 1,
+      "text": "if you are using the service on behalf of a company , organization or other lega...",
+      "true_label": "Low-risk",
+      "pipeline_verdict": "RED",
+      "pipeline_citation": "Constitution of India Art 19(1)(c) & Gig Worker Acts (Freedom of Association & Collective Redressal)",
+      "pipeline_early_exit": false,
+      "baseline_verdict": "RED",
+      "baseline_citation": "Error"
+    },
+    {
+      "id": "L1_1130",
+      "layer": 1,
+      "text": "in this case , the nintendo network agreement and nintendo network privacy polic...",
+      "true_label": "Low-risk",
+      "pipeline_verdict": "RED",
+      "pipeline_citation": "DPDP Act 2023 (Section 8 - General Obligations of Data Fiduciary & Erasure)",
+      "pipeline_early_exit": false,
+      "baseline_verdict": "RED",
+      "baseline_citation": "Error"
+    }
+  ]
+}

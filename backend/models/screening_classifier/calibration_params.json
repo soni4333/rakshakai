@@ -1,0 +1,10 @@
+{
+  "model_name": "distilbert-base-multilingual-cased",
+  "temperature": 0.9099,
+  "escalation_threshold": 0.4746,
+  "val_f1": 0.8846,
+  "val_recall": 1.0,
+  "val_precision": 0.7931,
+  "target_class": "High-risk",
+  "rationale": "Threshold 0.4746 selected from Precision-Recall curve to achieve 100.0% recall on High-risk clauses with 0.8846 F1."
+}

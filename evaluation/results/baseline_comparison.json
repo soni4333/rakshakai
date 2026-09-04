@@ -1,0 +1,25 @@
+{
+  "comparison_summary": {
+    "rakshak_ai_pipeline": {
+      "accuracy": 0.4898,
+      "precision": 0.4898,
+      "recall": 1.0,
+      "f1_score": 0.6575,
+      "statutory_grounding": "100% ChromaDB Verified",
+      "hallucination_safeguards": "Active (Deterministic Guard)"
+    },
+    "direct_gemini_baseline": {
+      "accuracy": 0.551,
+      "precision": 0.5217,
+      "recall": 1.0,
+      "f1_score": 0.6857,
+      "statutory_grounding": "Unverified / Zero-shot Hallucination Risk",
+      "hallucination_safeguards": "None (Unguarded)"
+    }
+  },
+  "metric_deltas": {
+    "f1_improvement": -0.0282,
+    "recall_improvement": 0.0,
+    "precision_improvement": -0.0319
+  }
+}
